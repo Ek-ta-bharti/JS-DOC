@@ -1,0 +1,5 @@
+Variables are like containers for storing data in a computer program. In JavaScript, you can create a variable using the var, let, or const keyword.
+
+var was traditionally used for variable declaration, but let and const are preferred nowadays for better scoping and immutability respectively.
+let is used for variables that can be reassigned.
+const is used for variables whose value will not change.
