@@ -1,4 +1,0 @@
-What is javaScript?
-
-
-JavaScript is a programming language used to make web pages interactive. It runs in your browser and controls the elements of your web page.

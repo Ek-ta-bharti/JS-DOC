@@ -1,0 +1,63 @@
+What is javaScript?
+
+
+JavaScript is a programming language used to make web pages interactive. It runs in your browser and controls the elements of your web page.
+
+
+
+
+Starting from scratch:
+Introduction to JavaScript:
+What is JavaScript and why is it important?
+Syntax and basic structure.
+Variables and data types:
+How to declare variables.
+Data types such as strings, numbers, booleans, arrays, and objects.
+Operator:
+Arithmetic, comparison, and logical operators.
+conditional statement:
+If, else if, and else statements.
+Ternary operator.
+Loops:
+for, while, do... while loops.
+Loop control statement: Break and continue.
+
+
+
+
+intermediate level:
+Work:
+Function definitions and calling.
+Parameters and return values.
+Anonymous functions and arrow functions.
+Tables:
+Array methods include push(), pop(), shift(), unshift(), slice(), splice().
+Items:
+Object literals and constructors.
+Accessing object properties.
+Object Methods.
+Scope and Completion:
+Global scope, local scope.
+What are closures and how do they work?
+
+
+
+
+advanced level:
+Asynchronous JavaScript:
+Callback function.
+Promises and async/await.
+Error Management:
+Try, catch, eventually block.
+Error objects.
+DOM manipulation:
+Accessing and modifying HTML elements.
+event handling.
+AJAX and API:
+Bring API.
+Making HTTP requests.
+ES6+ Features:
+Arrow works.
+template literal.
+the destroyer.
+module.

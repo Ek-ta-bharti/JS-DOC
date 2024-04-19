@@ -1,0 +1,8 @@
+
+Operators:
+Arithmetic Operators: Addition (+), subtraction (-), multiplication (*), division (/), modulus (%), aur exponentiation (**).
+Assignment Operators: Assignment (=), addition assignment (+=), subtraction assignment (-=), multiplication assignment (*=), division assignment (/=), modulus assignment (%=).
+Comparison Operators: Equal to (==), not equal to (!=), strict equal to (===), strict not equal to (!==), greater than (>), less than (<), greater than or equal to (>=), less than or equal to (<=).
+Logical Operators: AND (&&), OR (||), NOT (!).
+Unary Operators: Increment (++), decrement (--).
+Ternary Operator: Conditional operator (condition ? expr1 : expr2).
