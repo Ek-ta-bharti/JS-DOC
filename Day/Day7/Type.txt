@@ -1,0 +1,106 @@
+Function Parameters and Arguments:
+javascript
+Copy code
+function add(a, b) {
+  return a + b;
+}
+console.log(add(8, 4)); // Output: 12
+Return Value Function:
+javascript
+Copy code
+function add(a, b) {
+  return a + b;
+}
+console.log(add(8, 4)); // Output: 12
+Function Expression:
+javascript
+Copy code
+let add = function(a, b) {
+  return a + b;
+};
+console.log(add(8, 4)); // Output: 12
+Arrow Function:
+javascript
+Copy code
+let add = (a, b) => a + b;
+console.log(add(8, 4)); // Output: 12
+Intermediate Invoke Function Expression:
+javascript
+Copy code
+let result = (function(a, b) {
+  return a + b;
+})(8, 4);
+console.log(result); // Output: 12
+Higher-order Function:
+javascript
+Copy code
+function operate(operator, a, b) {
+  return operator(a, b);
+}
+let addition = function(a, b) {
+  return a + b;
+};
+console.log(operate(addition, 8, 4)); // Output: 12
+Generator Function:
+javascript
+Copy code
+function* generate() {
+  yield 8 + 4;
+}
+let iterator = generate();
+console.log(iterator.next().value); // Output: 12
+Callback Function:
+javascript
+Copy code
+function add(a, b, callback) {
+  let result = a + b;
+  callback(result);
+}
+function callback(result) {
+  console.log(result);
+}
+add(8, 4, callback); // Output: 12
+Anonymous Function:
+javascript
+Copy code
+let add = function(a, b) {
+  return a + b;
+};
+console.log(add(8, 4)); // Output: 12
+Immediately Invoked Function Expression (IIFE):
+javascript
+Copy code
+let result = (function(a, b) {
+  return a + b;
+})(8, 4);
+console.log(result); // Output: 12
+Async Function:
+javascript
+Copy code
+async function add(a, b) {
+  return a + b;
+}
+add(8, 4).then(result => console.log(result)); // Output: 12
+Constructor Function:
+javascript
+Copy code
+function Adder(a, b) {
+  this.a = a;
+  this.b = b;
+  this.result = function() {
+    return this.a + this.b;
+  };
+}
+let calculator = new Adder(8, 4);
+console.log(calculator.result()); // Output: 12
+Module Function:
+javascript
+Copy code
+// Module file: add.js
+export function add(a, b) {
+  return a + b;
+}
+
+// Main file
+import { add } from './add.js';
+console.log(add(8, 4)); // Output: 12
