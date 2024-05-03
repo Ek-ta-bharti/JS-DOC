@@ -32,5 +32,7 @@ fruits.splice(1, 1, 'Mango'); // Removes one element at index 1 and inserts 'Man
 console.log(fruits); // Outputs: ['Apple', 'Mango', 'Orange']
 
 
-let myArray = [1, 2, 3, 4, 5];
-console.log(typeof myArray); // Outputs: "object"
+// let myArray = [1, 2, 3, 4, 5];
+// console.log(typeof myArray); 
+
+// Outputs: "object"
